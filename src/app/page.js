@@ -317,7 +317,7 @@ export default function Home() {
           </div>
         </Link>
 
-        <p className="mt-7 text-gray-400">Developer &gt; &nbsp;<Link href="https://me-mudit-anand.verce.app" className="text-orange-500">Mudit Anand</Link></p>
+        <p className="mt-7 text-gray-400">Developer &gt; &nbsp;<Link href="https://me-mudit-anand.vercel.app" className="text-orange-500">Mudit Anand</Link></p>
       </footer>
     </section>
   )
