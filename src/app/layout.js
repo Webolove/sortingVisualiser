@@ -12,6 +12,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+    <Head>
+        <title>Sorting Visualiser</title>
+        <meta name='description' content='Home' />
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
+      </Head>
       <body className={inter.className}>{children}
         <Toaster />
       </body>
